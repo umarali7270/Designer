@@ -15,25 +15,25 @@ export default function Gallary() {
 </svg>
 
                     </span>Featured Work</a>
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
+                <div className="md:grid md:grid-cols-2 grid-cols-1 gap-6 flex flex-col items-center justify-center">
                     <div className="flex flex-col gap-5">
-                        <div className="relative w-full h-[888px] gallery overflow-hidden ">
-                            <img src={GallaryImg1} alt="" className="object-cover h-full flex mb-6 rounded  w-full  " />
-                            <span className= " flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  h-full w-full bg-[#00000099] transition-all ">InVersion</span>
+                        <div className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] ">
+                            <img src={GallaryImg1} alt="GallaryImg" className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  " />
+                            <span className= " flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">InVersion</span>
                         </div>
-                        <div className="relative w-full h-[888px] gallery overflow-hidden ">
-                            <img src={GallaryImg3} alt="" className="object-cover h-full flex  rounded  w-full "/>
-                            <span className="  flex items-center justify-center  text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  h-full w-full bg-[#00000099] transition-all ">InVersion</span>
+                        <div className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] ">
+                            <img src={GallaryImg2} alt="GallaryImg" className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  " />
+                            <span className= " flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">InVersion</span>
                         </div>
                     </div>
                     <div className=" md:pt-[138px] flex flex-col gap-5">
-                        <div className="relative w-full h-[888px] gallery overflow-hidden ">
-                            <img src={GallaryImg2} alt="" className="object-cover h-full flex mb-6 rounded w-full " />
-                            <span className="  flex items-center justify-center  text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  h-full w-full bg-[#00000099] transition-all ">InVersion</span>
+                    <div className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] ">
+                            <img src={GallaryImg3} alt="GallaryImg" className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  " />
+                            <span className= " flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">InVersion</span>
                         </div>
-                        <div className="relative w-full h-[888px] gallery overflow-hidden ">
-                            <img src={GallaryImg4} alt="" className="object-cover h-full flex rounded w-full " /> 
-                            <span className="  flex items-center justify-center  text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  h-full w-full bg-[#00000099] transition-all ">InVersion</span>
+                        <div className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] ">
+                            <img src={GallaryImg4} alt="GallaryImg" className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  " />
+                            <span className= " flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">InVersion</span>
                         </div>
                     </div>
                 </div>

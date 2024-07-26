@@ -10,14 +10,14 @@ export default function Personal() {
             <div className="max-w-[1250px] mx-auto">
                 <h2 className="font-bold md:text-[36px] md:leading-[49px] text-center text-[28px] leading-[38px] mb-[34px] text-[#DEDEDE] md:mb-[65px]">Personal Projects</h2>
                 <div className="md:grid md:grid-cols-3 flex flex-col md:gap-6 gap-4 items-center">
-                    <div className="box">
-                      <img src={PersonalImg} alt="" className="flex rounded box-card " />
+                    <div className="md:w-full md:h-full w-[200px] h-[300px] overflow-hidden">
+                      <img src={PersonalImg} alt="" className="flex rounded box-card md:w-full md:h-full  w-[360px] h-[300px]" />
                     </div>
-                    <div className="box">
-                      <img src={PersonalImg2} alt="" className="flex rounded box-card " />
+                    <div className="md:w-full md:h-full w-[200px] h-[300px] overflow-hidden">
+                      <img src={PersonalImg2} alt="" className="flex rounded box-card md:w-full md:h-full  w-[360px] h-[300px]" />
                     </div>
-                    <div className="box">
-                      <img src={PersonalImg3} alt="" className="flex rounded box-card " />
+                    <div className="md:w-full md:h-full w-[200px] h-[300px] overflow-hidden">
+                      <img src={PersonalImg3} alt="" className="flex rounded box-card md:w-full md:h-full  w-[360px] h-[300px]" />
                     </div>
                 </div>
             </div>

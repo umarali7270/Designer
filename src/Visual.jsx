@@ -13,23 +13,23 @@ export default function Visual() {
             <div className="max-w-[1250px] mx-auto">
                 <h2 className="font-bold md:text-[36px] md:leading-[49px] text-center text-[28px] leading-[38px] mb-[34px] text-[#DEDEDE] md:mb-[65px]">Visual Explorations</h2>
                 <div className="md:grid md:grid-cols-3 flex flex-col md:gap-6 gap-4 items-center">
-                  <div className="visual-cards">
-                    <img src={VisualImg} alt="" className="flex rounded visual-cards-card " />
+                  <div className="md:w-[408px] md:h-[408px]">
+                    <img src={VisualImg} alt="" className="w-[200px] h-[208px] flex rounded md:w-[408px] md:h-[408px] visual-cards-card " />
                   </div>
-                  <div className="visual-cards">
-                    <img src={VisualImg2} alt="" className="flex rounded visual-cards-card " />
+                  <div className="md:w-[408px] md:h-[408px]">
+                    <img src={VisualImg2} alt="" className="w-[200px] h-[208px] flex rounded md:w-[408px] md:h-[408px] visual-cards-card " />
                   </div>
-                  <div className="visual-cards">
-                    <img src={VisualImg3} alt="" className="flex rounded visual-cards-card " />
+                  <div className="md:w-[408px] md:h-[408px]">
+                    <img src={VisualImg3} alt="" className="w-[200px] h-[208px] flex rounded md:w-[408px] md:h-[408px] visual-cards-card " />
                   </div>
-                  <div className="visual-cards">
-                    <img src={VisualImg4} alt="" className="flex rounded visual-cards-card " />
+                  <div className="md:w-[408px] md:h-[408px]">
+                    <img src={VisualImg4} alt="" className="w-[200px] h-[208px] flex rounded md:w-[408px] md:h-[408px] visual-cards-card " />
                   </div>
-                  <div className="visual-cards">
-                    <img src={VisualImg5} alt="" className="flex rounded visual-cards-card " />
+                  <div className="md:w-[408px] md:h-[408px]">
+                    <img src={VisualImg5} alt="" className="w-[200px] h-[208px] flex rounded md:w-[408px] md:h-[408px] visual-cards-card " />
                   </div>
-                  <div className="visual-cards">
-                    <img src={VisualImg6} alt="" className="flex rounded visual-cards-card " />
+                  <div className="md:w-[408px] md:h-[408px]">
+                    <img src={VisualImg6} alt="" className="md:w-[400px] md:h-[408px] w-[200px] h-[208px] flex rounded visual-cards-card " />
                   </div>
                 </div>
             </div>
