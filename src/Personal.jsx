@@ -14,13 +14,13 @@ export default function Personal() {
                 <h2 className="font-bold md:text-[36px] md:leading-[49px] text-center text-[28px] leading-[38px] mb-[34px] text-[#DEDEDE] md:mb-[65px]">Personal Projects</h2>
                 <div className="md:grid md:grid-cols-3 flex flex-col md:gap-6 gap-4 items-center">
                     <div className="w-full h-full  overflow-hidden">
-                      <img src={PersonalImg} alt="" className="flex rounded box-card w-full h-full" />
+                      <img src={PersonalImg} alt="" className="flex rounded box-card w-full md:h-full h-[400px]" />
                     </div>
                     <div className="w-full h-full  overflow-hidden">
-                      <img src={PersonalImg2} alt="" className="flex rounded box-card w-full h-full" />
+                      <img src={PersonalImg2} alt="" className="flex rounded box-card w-full md:h-full h-[400px]" />
                     </div>
                     <div className="w-full h-full  overflow-hidden">
-                      <img src={PersonalImg3} alt="" className="flex rounded box-card w-full h-full" />
+                      <img src={PersonalImg3} alt="" className="flex rounded box-card w-full md:h-full h-[400px]" />
                     </div>
                 </div>
             </div>
