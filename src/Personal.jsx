@@ -6,6 +6,9 @@ import PersonalImg3 from "./img/personal/personal3.png"
 export default function Personal() {
   return (
     <div>
+
+
+      
         <section className="md:pt-[120px] md:pb-[120px]  pt-14 pb-[100px] bg-[#202020] px-5">
             <div className="max-w-[1250px] mx-auto">
                 <h2 className="font-bold md:text-[36px] md:leading-[49px] text-center text-[28px] leading-[38px] mb-[34px] text-[#DEDEDE] md:mb-[65px]">Personal Projects</h2>
