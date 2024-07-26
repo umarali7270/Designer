@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.visual-cards {
+  width: 400px;
+  height: 408px;
+  /* overflow: hidden; */
+}
+.visual-cards-card {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+  object-fit: cover;
+}
+.visual-cards-card:hover {
+  margin-top: -12px;
+}
+
+
+.box {
+  width: 400px;
+  height: 560px;
+  overflow: hidden;
+}
+.box-card {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+  object-fit: cover;
+}
+.box-card:hover {
+  transform: scale(1.2);
+}
+
+.gallery:hover span{
+    right: 0;
+
+}
+.hamburger-x{
+    fill: #dedede;
+}
+.hamburger-x:hover{
+    fill: #9d9d9d;
+}
