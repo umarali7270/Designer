@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 .visual-cards {
+  overflow: hidden;
 }
 .visual-cards-card {
   transition: all 0.3s;
-  object-fit: cover;
 }
 .visual-cards-card:hover {
-  margin-top: -12px;
+  transform: scale(1.1);
 }
 
 
@@ -33,4 +33,27 @@
 }
 .hamburger-x:hover{
     fill: #9d9d9d;
+}
+.hero2{
+  background-image: url(./img/hero2/hero2.png);
+  background-size: cover;
+  width: 100%;
+  height: 640px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proimg{
+  background-size: contain;
+}
+
+
+.concImg:hover{
+  transform: scale(1.05);
+  transition: all .4s;
+}
+.prototypeImg:hover{
+  transform: scale(1.05);
+  overflow: hidden;
+  transition: all .3s;
 }
