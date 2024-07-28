@@ -47,7 +47,9 @@
   background-size: contain;
 }
 
-
+.concImg{
+  object-fit: cover;
+}
 .concImg:hover{
   transform: scale(1.05);
   transition: all .4s;
