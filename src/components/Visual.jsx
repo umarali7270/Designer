@@ -1,10 +1,10 @@
 import React from 'react'
-import VisualImg from "./img/viaual/visualImg1.png"
-import VisualImg2 from "./img/viaual/visualImg2.png"
-import VisualImg3 from "./img/viaual/visualImg3.png"
-import VisualImg4 from "./img/viaual/visualImg4.png"
-import VisualImg5 from "./img/viaual/visualImg5.png"
-import VisualImg6 from "./img/viaual/visualImg6.png"
+import VisualImg from "../img/viaual/visualImg1.png"
+import VisualImg2 from "../img/viaual/visualImg2.png"
+import VisualImg3 from "../img/viaual/visualImg3.png"
+import VisualImg4 from "../img/viaual/visualImg4.png"
+import VisualImg5 from "../img/viaual/visualImg5.png"
+import VisualImg6 from "../img/viaual/visualImg6.png"
 
 export default function Visual() {
   return (

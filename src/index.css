@@ -41,21 +41,36 @@
   height: 640px ;
   margin-left: auto;
   margin-right: auto;
+  background-attachment: fixed;
 }
 
 .proimg{
-  background-size: contain;
+  width: 100%;
+  height: 769px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .concImg{
   object-fit: cover;
+  transition: all .4s;
 }
 .concImg:hover{
   transform: scale(1.05);
-  transition: all .4s;
+}
+.prototypeImg{
+
+  transition: all .3s;
 }
 .prototypeImg:hover{
   transform: scale(1.05);
   overflow: hidden;
+}
+.footer-link:hover{
+  transform: scale(1.2);
+  margin-top: -5px;
+  fill: white;
+}
+.footer-link{
   transition: all .3s;
 }

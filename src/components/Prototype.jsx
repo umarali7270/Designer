@@ -1,14 +1,15 @@
 import React from 'react'
-import PrototyeImg from './img/prototype/prototype.png'
-import ProtoCardImg from './img/prototype/cardsiImg/card1.png'
-import ProtoCardImg2 from './img/prototype/cardsiImg/card2.png'
+import PrototyeImg from '../img/prototype/prototype.png'
+import ProtoCardImg from '../img/prototype/cardsiImg/card1.png'
+import ProtoCardImg2 from '../img/prototype/cardsiImg/card2.png'
 
 export default function Prototype() {
   return (
     <div>
         <section className="bg-[#202020] md:pt-[100px] md:pb-[115px] pt-[99px] pb-[110px] bgImgPrototype">
-                <div className="md:mb-[234px] mb-[226px]">
-                    <img src={PrototyeImg} alt=""  className="bg-gray-500 lg:w-full w-full h-full mx-auto lg:h-[769px] proimg block" />
+                
+                <div style={{backgroundImage: `url(${PrototyeImg})`}} className="md:mb-[234px] mb-[226px] proimg">
+
                 </div>
             <div className="max-w-[1250px] mx-auto px-5 ">
                 <div className="flex   flex-col md:gap-[275px] gap-[226px]">

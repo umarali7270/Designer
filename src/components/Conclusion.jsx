@@ -1,5 +1,5 @@
 import React from "react";
-import ConclusionImg from "./img/conclusion/conclusionImg.png" 
+import ConclusionImg from "../img/conclusion/conclusionImg.png" 
 
 export default function Conclusion() {
   return (
