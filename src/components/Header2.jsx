@@ -3,14 +3,24 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Header2() {
+    let [xox  , setXox] = useState(false)
+    let [nav , setNav] = useState(false)
 
-    let [nav , setNav] = useState(true)
+    function a (){
+        setXox(false)
 
+    }
+    function b (){
+    }
+    
     function umarali(){
+        setXox(false)
         setNav(false)
     }
     function durbek(){
         setNav(true)
+        setXox(true)
+
     }
   return (
     <div>
@@ -24,7 +34,7 @@ export default function Header2() {
                     </svg>
                 </a>
                 <ul className="md:flex hidden items-center justify-center gap-14">
-                    <li className=""><Link to="/home" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
+                    <li className=""><Link to="/" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
                     <li className=""><Link to="/article" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Work</Link></li>
                     <li className=""><a href="#" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Contact</a></li>
                 </ul>
@@ -36,15 +46,20 @@ export default function Header2() {
 
             </div>
         </header>
+                <div style={xox ? {right: "-100%"} : {right: "0"}} onClick={durbek} className="w-[100%] transition-all bg-red-500 top-0 right-0 fixed h-screen ">
+                    
+                </div>
+
+                
                 <div style={nav ? {right: "-100%"} : {right: "0"}} className="md:hidden fixed top-0 pt-10   bg-[#202020a0]  z-50 backdrop-blur-md transition-all right-0 block h-[100vh] w-[85%]">
                     <button  onClick={durbek}  className=" absolute top-6 right-0 text-5xl flex justify-end pr-5">
                     <svg className='w-4 hamburger-x' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
                     </button>
-                <ul className="md:hidden flex flex-col items-center pt-20 justify-center gap-10">
-                    <li className=""><Link to="/home" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
-                    <li className=""><Link to="/article" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Work</Link></li>
-                    <li className=""><a href="#" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Contact</a></li>
-                </ul>
+                    <ul className="md:hidden flex flex-col items-center pt-20 justify-center gap-10">
+                        <li className=""><Link to="/" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
+                        <li className=""><Link to="/article" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Work</Link></li>
+                        <li className=""><a href="#" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Contact</a></li>
+                    </ul>
                 </div>
     </div>
   )

@@ -10,7 +10,7 @@ export default function App() {
       <BrowserRouter>
         <Header2/>
         <Routes>
-        <Route path='/home' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/article' element={<Article/>}/>
         <Route path='/article' element={<Article/>}/>
         
