@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="max-w-[1250px] mx-auto md:flex md:flex-row flex flex-col-reverse justify-between">
           <div className="max-w-[600px]">
             <h1 className="font-bold md:text-[64px] text-[36px] md:leading-[70px] leading-[40px] md:text-start text-center text-[#DEDEDE] mb-6">
-              Hi, I am Your Name A Product Designer based in City.
+              Hi, I am Umarali A Product Designer based in City.
             </h1>
             <p className="text-[#959595] md:font-semibold md:text-2xl md:mb-16 text-lg text-center md:text-start mb-12">
               I help businesses and companies reach their goals by designing
