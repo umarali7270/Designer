@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div>
-        <section className="md:pt-[120px] pt-[100px] pb-[60px]  bg-[#202020] px-5">
+        <section id='contact' className="md:pt-[120px] pt-[100px] pb-[60px]  bg-[#202020] px-5">
             <div className="max-w-[1250px] mx-auto ">
                 <div className="md:w-[490px]  mx-auto ">
                     <h2 className="font-bold  md:text-[36px] md:leading-[49px] text-center text-[28px] leading-[38px]  text-[#DEDEDE] md:mb-6 mb-3">Contact Me</h2>
