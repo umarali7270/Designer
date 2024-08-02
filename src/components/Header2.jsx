@@ -14,12 +14,12 @@ export default function Header2() {
     }
     
     function umarali(){
-        setXox(false)
-        setNav(false)
+        setXox(true)
+        setNav(true)
     }
     function durbek(){
-        setNav(true)
-        setXox(true)
+        setNav(false)
+        setXox(false)
 
     }
   return (
