@@ -36,7 +36,7 @@ export default function Header2() {
                 <ul className="md:flex hidden items-center justify-center gap-14">
                     <li className=""><Link to="/" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
                     <li className=""><Link to="/article" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Work</Link></li>
-                    <li className=""><a tel="+998900607270" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all cursor-pointer">Contact</a></li>
+                    
                 </ul>
                 <a href="#" onClick={umarali} className="flex md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 23 18" fill="none">
@@ -58,7 +58,7 @@ export default function Header2() {
                     <ul className="md:hidden flex flex-col items-center pt-20 justify-center gap-10">
                         <li className=""><Link to="/" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
                         <li className=""><Link to="/article" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Work</Link></li>
-                        <li className=""><a tel="+998900607270" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all cursor-pointer">Contact</a></li>
+                       
                     </ul>
                 </div>
     </div>
