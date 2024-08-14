@@ -1,5 +1,7 @@
 import React from "react";
 import ConclusionImg from "../img/conclusion/conclusionImg.png" 
+import { Link } from 'react-router-dom'
+
 
 export default function Conclusion() {
   return (
@@ -16,8 +18,8 @@ export default function Conclusion() {
           <div className="md:mb-[244px]">
             <img src={ConclusionImg} alt="img" className="bg-gray-500 flex w-full mb-[140px] md:w-full md:h-full  h-[577px] concImg" />
           </div>
-          <div className="text-center">
-              <a href="#" className="text-[#DEDEDE] border-b-2 font-bold text-[32px] leading-[54px]  inline-block hover:text-[#a5a5a5] transition-all    ">Next Case</a>
+          <div  className="text-center">
+              <Link to="/" className="text-[#DEDEDE] border-b-2 font-bold text-[32px] leading-[54px]  inline-block hover:text-[#a5a5a5] transition-all">Next Case</Link>
           </div>
         </div>
       </section>

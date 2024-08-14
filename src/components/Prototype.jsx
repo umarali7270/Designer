@@ -8,7 +8,7 @@ export default function Prototype() {
     <div>
         <section className="bg-[#202020] md:pt-[100px] md:pb-[115px] pt-[99px] pb-[110px] bgImgPrototype">
                 
-                <div style={{backgroundImage: `url(${PrototyeImg})`}} className="md:mb-[234px] mb-[226px] proimg">
+                <div style={{backgroundImage: `url(${PrototyeImg})`}} className="md:mb-[234px] mb-[226px] proimg bg-gray-500">
 
                 </div>
             <div className="max-w-[1250px] mx-auto px-5 ">
