@@ -41,7 +41,7 @@ export default function Header() {
                 <ul className="md:hidden flex flex-col items-center mt-20 justify-center gap-10">
                     <li className=""><Link to="/home" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Home</Link></li>
                     <li className=""><Link to="/article" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Work</Link></li>
-                    <li className=""><a href="#" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Contact</a></li>
+                    <li className=""><a tel="+998900607270" className="font-bold text-lg text-[#DEDEDE] hover:text-[#9D9D9D] transition-all">Contact</a></li>
                 </ul>
                 </div>
             </div>
